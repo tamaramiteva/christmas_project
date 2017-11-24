@@ -19,7 +19,7 @@ while True:
   tcpTimeClientSock, addr = tcpTimeSrvrSock.accept()
   print '...connected from:', addr
 
-‹
+
   while True:
     data = tcpTimeClientSock.recv(BUFSIZE)
     if not data:
